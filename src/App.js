@@ -208,6 +208,7 @@ class App extends Component {
       <div>
         <header className="header">
           <h1>todos</h1>
+          a random change
           <Login model={this.props.model} onError={this.onError.bind(this)} onAuthChange={this.onAuthChange.bind(this)} />
           {this.state.faunadb_token ? listNavigator : ''}
           {this.state.faunadb_token ? inputArea : ''}
